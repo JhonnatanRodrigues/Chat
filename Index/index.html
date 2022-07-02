@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Atendimento on-line</h1>
+        </div>
+        <div class="body">
+            <ul id="Lista_mensagem_atendent">
+                <h4>Atendente diz:</h4>
+                <p class="mensagem">Hello</p>
+            </ul>
+            <ul id="Lista_mensagem_user">
+                <li>
+                    <div>
+                        <h4 class="mensagemDe">Você diz:</h4>
+                    </div>
+                    <p class="mensagem user_mensagem">Hi</p>
+                </li>
+            </ul>
+        </div>
+        <div class="footer">
+            <form>
+                <input type="text" 
+                       id="caixa_mensagem" 
+                       placeholder="Escreva uma nova mensagem">
+                <button id="btnAddMensagem">SEND</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="../js/mensagens.js"></script>
+</body>
+</html>
